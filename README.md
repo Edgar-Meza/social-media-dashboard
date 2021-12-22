@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](url)
+- Solution URL: [Solution](https://edgar-meza.github.io/social-media-dashboard/)
 
 ## My process
 
