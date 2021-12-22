@@ -49,12 +49,12 @@ firstCards = () =>{
             var content = "\
                             <div class='bg-card-light card-b rounded-2 text-center'>\
                                 <div class='mt-4'>\
-                                <img class='rounded-1' src='images/icon-"+datas[i].network+".svg' alt=''>\
+                                <img class='rounded-1' src='images/icon-"+datas[i].network+".svg' alt='icon "+datas[i].network+"'>\
                                 <span>"+data.user+"</span>\
                                 </div>\
                                 <span class='d-block fs-55px fw-bold'>"+datas[i].followers+"</span>\
                                 <span class='d-block follow'>"+typePublic+"</span>\
-                                <span class='d-block "+followincrease+"'><img src='images/icon-"+viewarrow+".svg'> "+followresult+" Today</span>\
+                                <span class='d-block "+followincrease+"'><img src='images/icon-"+viewarrow+".svg' alt='arrow'> "+followresult+" Today</span>\
                             </div>\
             ";
             var overview = "\
@@ -63,24 +63,24 @@ firstCards = () =>{
                                     <div class='d-flex mb-2'>\
                                         <span class='w-75 text-start title-today'>"+tit_over+"</span>\
                                         <div class='w-25 text-end'>\
-                                        <img class='rounded-1' src='images/icon-"+datas[i].network+".svg' alt='icon facebook'>\
+                                        <img class='rounded-1' src='images/icon-"+datas[i].network+".svg' alt='icon "+datas[i].network+"'>\
                                         </div>\
                                     </div>\
                                     <div class='d-flex'>\
                                         <span class='w-50 text-start fs-1 fw-bold'>"+datas[i].views+"</span>\
-                                        <span class='w-50 text-end align-self-center "+viewincrease+"'><img src='images/icon-"+viewarrow+".svg'/> "+viewresult+"</span>\
+                                        <span class='w-50 text-end align-self-center "+viewincrease+"'><img src='images/icon-"+viewarrow+".svg' alt='arrow'/> "+viewresult+"</span>\
                                     </div>\
                                 </div>\
                                 <div class='bg-card-light card-b-s rounded-2 p-4'>\
                                     <div class='d-flex mb-2'>\
                                         <span class='w-75 text-start title-today'>Likes</span>\
                                         <div class='w-25 text-end'>\
-                                        <img class='rounded-1' src='images/icon-"+datas[i].network+".svg' alt='icon facebook'>\
+                                        <img class='rounded-1' src='images/icon-"+datas[i].network+".svg' alt='icon "+datas[i].network+"'>\
                                         </div>\
                                     </div>\
                                     <div class='d-flex'>\
                                         <span class='w-50 text-start fs-1 fw-bold'>"+datas[i].likes+"</span>\
-                                        <span class='w-50 text-end align-self-center "+likeincrease+"'><img src='images/icon-"+likearrow+".svg'/> "+likeresult+"</span>\
+                                        <span class='w-50 text-end align-self-center "+likeincrease+"'><img src='images/icon-"+likearrow+".svg' alt='arrow'/> "+likeresult+"</span>\
                                     </div>\
                                 </div>\
                             </div>\
