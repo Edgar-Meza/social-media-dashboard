@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link id="style" rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+<body>
+  <div class="pattern"></div>
+  <main class="container-fluid pt-5 px-10p">
+    <div class="d-flex flex-wrap mb-3">
+      <div class="w-50 text-start">
+        <h1 class="m-0">Social Media Dashboard</h1>
+      </div>
+      <div class="w-50 text-end">
+        <span class="tit_theme">Dark Mode</span>
+        <svg id="content-theme" xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16" onclick="darkTheme()" data-state="false">
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:hsl(210, 78%, 56%);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:hsl(146, 68%, 55%);stop-opacity:1" />
+          </linearGradient>
+          <path id="btn-theme" d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" fill="hsl(228, 12%, 44%)"/>
+        </svg>
+      </div>
+      <div class="w-100 follows">
+        Total Followers: 23,004
+      </div>
+    </div>
+    
+    <div class="grid" id="main-panel"></div>
+    <h2 class="tit_over">Overview - Today</h2>
+    <div class="grid" id="second-panel"></div>
+  </main>  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Edgar Meza</a>.
+  </footer>
+</body>
+</html>
