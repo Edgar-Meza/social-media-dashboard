@@ -47,7 +47,7 @@ I strengthened my knowledge of both HTML, CSS, Bootstrap and JavaScript, learnin
 
 ### Continued development
 
-I would like to work with the CSS framework tailwind with which I have not worked much but I find it interesting, for this challenge I planned to make use of some framework such as Reactjs, tailwind but I preferred to test my skills with HTML, Bootstrao and JavaScript.
+I would like to work with the CSS framework tailwind with which I have not worked much but I find it interesting, for this challenge I planned to make use of some framework such as Reactjs, tailwind but I preferred to test my skills with HTML, Bootstrap and JavaScript.
 
 ## Author
 
